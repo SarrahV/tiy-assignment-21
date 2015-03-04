@@ -1,0 +1,29 @@
+.container {
+  margin: 0 auto 0 auto;
+  width: 1024px;
+}
+table {
+  width: auto;
+  border-collapse: collapse;
+}
+table th {
+  text-align: center;
+  padding: 10px;
+  -webkit-column-span: 1;
+  column-span: 1;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+table td {
+  border: 1px dotted #ccc;
+  padding: 10px;
+  font-family: 'Crimson Text', serif;
+}
+table td:nth-of-type(even) {
+  background-color: #eee;
+  font-size: .9em;
+}
+table td:nth-of-type(odd) {
+  font-size: 1em;
+}
