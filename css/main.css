@@ -1,12 +1,24 @@
-.container {
+.wrapper {
   margin: 0 auto 0 auto;
-  width: 1024px;
+  width: 1200px;
 }
-table {
+.sidebar {
+  width: 300px;
+  height: 600px;
+  float: left;
+  background-color: red;
+}
+.sidebar form ul {
+  list-style-type: none;
+}
+.main {
+  float: left;
+}
+.main table {
   width: auto;
   border-collapse: collapse;
 }
-table th {
+.main table th {
   text-align: center;
   padding: 10px;
   -webkit-column-span: 1;
@@ -15,15 +27,15 @@ table th {
   color: #fff;
   background-color: #000;
 }
-table td {
+.main table td {
   border: 1px dotted #ccc;
   padding: 10px;
   font-family: 'Crimson Text', serif;
 }
-table td:nth-of-type(even) {
+.main table td:nth-of-type(even) {
   background-color: #eee;
   font-size: .9em;
 }
-table td:nth-of-type(odd) {
+.main table td:nth-of-type(odd) {
   font-size: 1em;
 }
