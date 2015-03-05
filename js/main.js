@@ -6,33 +6,28 @@ var EmployeeCollection = Backbone.Collection.extend({ // make a collection that 
     model: Employee
 });
 
-var EmployeeView = (function() {
-  var template = JST["employeeRow"];
+//add view here//
 
-  function EmployeeView(model) {
-    _.extend(this, Backbone.Events);
-    this.model = model;
-    this.$el = $("<tr />");
+var EmployeeView = Backbone.View.extend({
+  template: JST["employeeRow"],
+  tagName: "tr",
+
+  render: function() {
+    var markup = this.template( this.model.toJSON() );
+    this.$el.html(markup);
+
+    return this;
   }
 
-  EmployeeView.prototype = {
-    render: function() {
-      var markup = template( this.model.toJSON() );
-      return this.$el.html( markup );
-    }
-  }
-
-  return EmployeeView; // this makes one employee row
-
-})();
+});
 
 $(function(){
 
   var employees = new EmployeeCollection(); //create collection
 
   employees.on("add", function(model) {
-    var employeeView = new EmployeeView(model);
-    $(".table-body").append(employeeView.render());
+    var employeeView = new EmployeeView({model: model});
+    $(".table-body").append(employeeView.render().el);
 
   });
 
