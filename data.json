@@ -4,6 +4,7 @@
   "Manager": "Martin Mindo",
   "Phone": "555.234.4455",
   "Dept": "Sales",
+  "Icon": "<i class='fa fa-diamond'></i>",
   "Start": "2003-02-03T00:33:13Z"
 },{
   "Name": "Tim Tanenbaum",
@@ -11,6 +12,7 @@
   "Manager": "Martin Mindo",
   "Phone": "555.234.3289",
   "Dept": "Sales",
+  "Icon": "<i class='fa fa-diamond'></i>",
   "Start": "2006-08-05T00:33:13Z"
 },{
   "Name": "Martin Mindo",
@@ -18,6 +20,7 @@
   "Manager": "Sarah Sagan",
   "Phone": "555.224.5623",
   "Dept": "Sales",
+  "Icon": "<i class='fa fa-diamond'></i>",
   "Start": "2002-06-09T00:00:13Z"
 },{
   "Name": "Sarah Sagan",
@@ -25,6 +28,7 @@
   "Manager": "Kevin Kagal",
   "Phone": "555.211.5645",
   "Dept": "Corp",
+  "Icon": "<i class='fa fa-diamond'></i>",
   "Start": "2004-08-02T00:00:13Z"
 },{
   "Name": "Kevin Kagal",
@@ -32,6 +36,7 @@
   "Manager": "Deborah Dacosta",
   "Phone": "555.504.2203",
   "Dept": "Corp",
+  "Icon": "<i class='fa fa-diamond'></i>",
   "Start": "2013-07-09T00:00:13Z"
 },{
   "Name": "Deborah Dacosta",
@@ -39,6 +44,7 @@
   "Manager": "Zoey Zapata",
   "Phone": "555.388.0892",
   "Dept": "Exec Officers",
+  "Icon": "<i class='fa fa-diamond'></i>",
   "Start": "2006-11-06T00:00:13Z"
 },{
   "Name": "Zoey Zapata",
@@ -46,6 +52,7 @@
   "Manager": null,
   "Phone": "555.234.4455",
   "Dept": "Exec Officers",
+  "Icon": "<i class='fa fa-diamond'></i>",
   "Start": "2007-09-05T00:00:13Z"
 },{
   "Name": "Frank Fixit",
@@ -53,6 +60,7 @@
   "Manager": "Jeremiah Jackson",
   "Phone": "555.222.5476",
   "Dept": "IT",
+  "Icon": "<i class='fa fa-diamond'>A</i>",
   "Start": "2008-10-06T00:00:13Z"
 },{
   "Name": "Penelope Parker",
@@ -60,6 +68,7 @@
   "Manager": "Jeremiah Jackson",
   "Phone": "555.884.4389",
   "Dept": "IT",
+  "Icon": "<i class='fa fa-diamond'></i>",
   "Start": "2011-07-08T00:00:13Z"
 },{
   "Name": "Jeremiah Jackson",
@@ -67,6 +76,7 @@
   "Manager": "Shannon Salazar",
   "Phone": "555.234.3876",
   "Dept": "IT",
+  "Icon": "<i class='fa fa-diamond'></i>",
   "Start": "2005-10-04T00:00:13Z"
 },{
   "Name": "Shannon Salazar",
@@ -74,5 +84,6 @@
   "Manager": "Zoey Zapata",
   "Phone": "555.334.8756",
   "Dept": "Exec Officers",
+  "Icon": "<i class='fa fa-diamond'></i>",
   "Start": "2007-09-05T00:00:13Z"
 }]
