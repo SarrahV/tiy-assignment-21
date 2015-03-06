@@ -1,6 +1,7 @@
 .wrapper {
   margin: 0 auto 0 auto;
   width: 1200px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .sidebar {
   width: 300px;
@@ -8,7 +9,7 @@
   float: left;
   background-color: red;
 }
-.sidebar form ul {
+.sidebar ul {
   list-style-type: none;
 }
 .main {
@@ -23,14 +24,12 @@
   padding: 10px;
   -webkit-column-span: 1;
   column-span: 1;
-  font-family: 'Montserrat', sans-serif;
   color: #fff;
   background-color: #000;
 }
 .main table td {
   border: 1px dotted #ccc;
   padding: 10px;
-  font-family: 'Crimson Text', serif;
 }
 .main table td:nth-of-type(even) {
   background-color: #eee;
