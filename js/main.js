@@ -69,7 +69,7 @@ $(function(){
 
     _.each(checkboxes, function(dept) {             //set checkbox to list
       var markup = JST["dept"]({ name: dept });
-      $("ul").append($("<li />").html(markup));
+      $(".menu").append($("<li />").html(markup));
     });
   
     checkAllFilters();
