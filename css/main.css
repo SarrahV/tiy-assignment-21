@@ -1,40 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  height: 160px;
+  background-color: #490a3d;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 100px;
+}
+header .logo {
+  position: absolute;
+  top: 15%;
+  left: 50px;
+  z-index: 2;
+}
 .wrapper {
   margin: 0 auto 0 auto;
   width: 1200px;
   font-family: 'Roboto Condensed', sans-serif;
+  color: #424040;
 }
-.sidebar {
+.wrapper .sidebar {
   width: 300px;
   height: 600px;
   float: left;
-  background-color: red;
+  font-size: 2em;
 }
-.sidebar ul {
+.wrapper .sidebar ul {
   list-style-type: none;
 }
-.main {
+.wrapper .main {
   float: left;
 }
-.main table {
-  width: auto;
+.wrapper .main table {
+  table-layout: fixed;
+  width: 900px;
   border-collapse: collapse;
+  -moz-box-shadow: 1px 2px 3px 2px #e5e5e5;
+  -webkit-box-shadow: 1px 2px 3px 2px #e5e5e5;
+  box-shadow: 1px 2px 3px 2px #e5e5e5;
+  border-radius: 2px;
+  margin-bottom: 25px;
+  font-size: 1em;
 }
-.main table th {
+.wrapper .main table img {
+  max-width: 100px;
+  height: auto;
+  margin-left: 10px;
+  padding: 0;
+}
+.wrapper .main table th {
   text-align: center;
   padding: 10px;
   -webkit-column-span: 1;
   column-span: 1;
-  color: #fff;
-  background-color: #000;
+  color: #424040;
+  background-color: #f3eff2;
 }
-.main table td {
-  border: 1px dotted #ccc;
-  padding: 10px;
+.wrapper .main table td {
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid #fff;
+  padding: 0 10px 0 10px;
+  height: auto;
+  width: ;
+  box-sizing: border-box;
 }
-.main table td:nth-of-type(even) {
-  background-color: #eee;
-  font-size: .9em;
+.wrapper .main table td h2 {
+  font-size: 1.2em;
+  padding-left: 10px;
 }
-.main table td:nth-of-type(odd) {
-  font-size: 1em;
+.wrapper .main table td p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.wrapper .main table td:nth-of-type(even) {
+  background-color: #f3eff2;
+  padding: 0;
+}
+.wrapper .main table td:nth-of-type(odd) {
+  padding: 0;
+}
+.wrapper .main table tfoot td {
+  background-color: #f3eff2;
+  border-radius: 2px;
+  border: none;
+}
+.wrapper .main table .start {
+  font-size: .8em;
 }
